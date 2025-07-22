@@ -10,6 +10,7 @@
     <Scroller layout="right">
         {#snippet sticky()}
             <img class='background' src='loc-mow.jpg' alt="Protestors at the 1963 March on Washington hold up various signs demanding freedom and equality">
+            <p>Civil rights March on Washington, D.C. August 28, 1963 <a href=https://www.loc.gov/item/2003654393>(Library of Congress)</a></p>
         {/snippet}
         {#snippet scrolly()}
             <ArticleText>
@@ -32,5 +33,9 @@
         border-style: solid;
         border-color: #702d00;
 
+    }
+    p {
+        font-size: small;
+        color: #702d00;
     }
 </style>
