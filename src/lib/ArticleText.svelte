@@ -11,12 +11,11 @@
 <style>
     .article-text {
         margin: 50vh auto;
-        width: 50%;
-        background-color: #ff99fc;
-        color: #007052;
-        border: solid #8427c9 3px;
-        border-radius: 20px;
+        width: 60%;
+        background-color: #ffd7be;
+        color: #702d00;
+        border: solid #702d00 3px;
         padding: 20px;
-        box-shadow: 16px 16px #8aa6df;
+        /* box-shadow: 16px 16px hsl(318, 100%, 79%); */
     }
 </style>

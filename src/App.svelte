@@ -8,17 +8,26 @@
   import DisappearingDuckExample from "./sections/DisappearingDuckExample.svelte";
   import IntersectionObserverSectionCard from "./sections/IntersectionObserverSectionCard.svelte";
   import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
+	import Introduction from "./sections/Introduction.svelte";
+	import Population from "./sections/Population.svelte";
+	import EducationRates from "./sections/EducationRates.svelte";
+	import InternetAccess from "./sections/InternetAccess.svelte";
+	import EducationComparison from "./sections/EducationComparison.svelte";
 </script>
 
 <main>
   <TitleSection />
-  <RightAlignedExample />
+  <Introduction />
+  <EducationRates />
+  <EducationComparison />
+  <InternetAccess />
+  <!-- <RightAlignedExample />
   <LeftAlignedExample />
-  <ImageExample />
-
+  <ImageExample /> -->
+<!-- 
   <IntersectionObserverSectionCard />
   <InteresectionObserverBasicExample />
   <IntersectionObserverAlertExample />
   <DisappearingDuckExample />
-  <IntersectionObserverListExample />
+  <IntersectionObserverListExample /> -->
 </main>

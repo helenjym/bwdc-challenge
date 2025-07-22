@@ -111,7 +111,7 @@
                 >
             </ArticleText>
 
-            <ArticleText>
+          <ArticleText>
                 This is a <strong>basic example</strong> of how you might create
                 a scrollytelling piece using Svelte and Highcharts.
             </ArticleText>
@@ -132,7 +132,7 @@
                     If you use this template, be sure to modify it and make it
                     your own!
                 </strong>
-            </ArticleText>
+            </ArticleText> 
         {/snippet}
     </Scroller>
 </div>
